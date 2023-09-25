@@ -1,3 +1,5 @@
+// Los scripts se ejecutan con ts-node script.ts
+
 // Tipado
 // los tipos pueden ser string number
 let nombre:string = "Marcos";
