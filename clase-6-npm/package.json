@@ -1,0 +1,23 @@
+{
+  "name": "clase-4-modulos",
+  "version": "1.0.0",
+  "description": "Aprendiendo a usar npm y a modularizar mi aplicación",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "módulo",
+    "funciones"
+  ],
+  "author": "gabrielalberini",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/uuid": "^9.0.4"
+  }
+}

@@ -22,7 +22,7 @@ const datos: datosMixtosArray[] = ['string', 1, true]
 interface Persona {
     nombre: string,
     edad: number,
-    gustosHelado: string[],
+    gustosHelado?: string[],	// esta variable puede o no estar, indicado por el ?
     tieneAuto: boolean
 }
 
@@ -51,7 +51,7 @@ enum DiasDeLaSemana {
 
 // funciones //
 
-const saludar = (saludo: string): string => {   // void seria que la funcion no returna nada
+const saludar = (saludo: string): string => {   // void seria que la funcion no retorna nada (solo procesa datos)
     return(
         `Output: ${saludo}`
     )
