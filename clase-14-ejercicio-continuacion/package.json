@@ -1,0 +1,36 @@
+{
+  "name": "tcp-chat-utn",
+  "version": "0.0.1",
+  "description": "chat construido mediante el protocolo TCP en red local",
+  "main": "server.ts",
+  "scripts": {
+    "server": "nodemon server.ts",
+    "client": "ts-node client.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielAlberini/diplomatura-utn-2023-avanzado.git"
+  },
+  "keywords": [
+    "tcp",
+    "chat",
+    "node",
+    "npm",
+    "client",
+    "server",
+    "json"
+  ],
+  "author": "gabrielalberini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielAlberini/diplomatura-utn-2023-avanzado/issues"
+  },
+  "homepage": "https://github.com/GabrielAlberini/diplomatura-utn-2023-avanzado#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

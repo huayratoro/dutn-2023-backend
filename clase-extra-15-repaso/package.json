@@ -1,0 +1,23 @@
+{
+  "name": "server-tcp",
+  "version": "0.0.1",
+  "description": "Ejercicio de repaso",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "server": "node --watch server/server.js",
+    "client": "node client/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ninguno"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "Marcos Benedicto",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

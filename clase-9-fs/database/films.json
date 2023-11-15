@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "Pelicula 1",
+    "rating": 4.5,
+    "id": "256697a3-73e6-4c23-9f34-47803d45bcc9"
+  },
+  {
+    "nombre": "Pelicula 2",
+    "rating": 3.9,
+    "id": "2dfc89cd-daac-4aab-85dd-46fa768792a9"
+  }
+]
