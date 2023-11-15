@@ -10,16 +10,14 @@ const options = {
 const clientTCP = net.connect(options);
 
 clientTCP.on("connect", () => {
-    console.log("Cliente conectado al servidor");
-
     const request = process.argv.splice(2);
     clientTCP.write(JSON.stringify(request))
-
-    clientTCP.end()
 });
 
-clientTCP.on("data", () => {
-    console.log("El server me mandó un mensaje")
+clientTCP.on("data", (jsonData) => {
+    const data = JSON.parse(jsonData.toString());
+    console.log(data);
+    clientTCP.end()
 })
 
 
